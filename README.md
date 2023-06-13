@@ -18,7 +18,8 @@ Running the script is as simple as executing the following command in your termi
  git clone https://github.com/mendeltem/sentence_cluster.git
  cd sentence_cluster
 
-./run
+chmod +x run.sh
+./run.sh
 ```
 
 Once you execute the run command, the script will perform the following steps:
