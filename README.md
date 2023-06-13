@@ -6,13 +6,7 @@ This Python script reads text files, generates sentence embeddings using the BER
 
 The script requires the following Python libraries:
 
-- numpy
-- pandas
-- sentence_transformers
-- sklearn
-- matplotlib
-- tkinter
-
+are installed while with ./run command
 
 ## Usage
 
