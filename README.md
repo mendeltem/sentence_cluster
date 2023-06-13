@@ -10,8 +10,9 @@ are installed while with ./run command
 
 ## Usage
 
+'''bash
 ./run
-
+'''
 
 Place your text files in a directory named "text" in the same location as the script. The script will read all the text files, split the text into sentences, and remove any sentences that are less than 5 characters long.
 
