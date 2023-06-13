@@ -9,6 +9,7 @@ The script requires several Python libraries including numpy, pandas, sentence_t
 
 Place your text files in a directory named "text" in the same location as the script. The script will read all the text files, split the text into sentences, and remove any sentences that are less than 5 characters long.
 
+
 ## Usage
 
 Running the script is as simple as executing the following command in your terminal:
@@ -17,9 +18,11 @@ Running the script is as simple as executing the following command in your termi
 
  git clone https://github.com/mendeltem/sentence_cluster.git
  cd sentence_cluster
+ 
+ pip install -r requirements  or  pip3 install -r requirements
 
-chmod +x run.sh
-./run.sh
+python sentence_tokenizer.py or python3 sentence_tokenizer.py
+
 ```
 
 Once you execute the run command, the script will perform the following steps:
