@@ -37,11 +37,14 @@ Save the sentences and their corresponding cluster labels to an Excel file named
 
 The script uses the 'bert-base-nli-mean-tokens' model to generate embeddings for each sentence. It then uses the Elbow Method to determine the optimal number of clusters for the K-Means algorithm.
 
+
 The script will display a plot of the inertia values for different numbers of clusters. Enter the optimal number of clusters in the text box and click "Submit".
 
 The script will then perform K-Means clustering on the sentence embeddings and group the sentences by their cluster labels. The sentences and their corresponding cluster labels are saved to an Excel file named "clusters.xlsx".
 
 ## Author
 
-This script was created by temuuleu on June 13, 2023.
+This script was created by mendeltem on June 13, 2023.
 
+## Lizenz
+MIT, Apache2, GPL-3, oder keine angeben, dann ist All rights reserved.
