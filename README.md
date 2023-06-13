@@ -12,6 +12,10 @@ The script requires several Python libraries including numpy, pandas, sentence_t
 Running the script is as simple as executing the following command in your terminal:
 
 ```bash
+
+ git clone https://github.com/mendeltem/sentence_cluster.git
+ cd sentence_cluster
+
 ./run
 ```
 
