@@ -4,15 +4,16 @@ This Python script reads text files, generates sentence embeddings using the BER
 
 ## Dependencies
 
-The script requires the following Python libraries:
+The script requires several Python libraries including numpy, pandas, sentence_transformers, sklearn, matplotlib, and tkinter. Don't worry about manually installing these dependencies. When you run the script using the provided command, all necessary dependencies will be automatically installed.
 
-are installed while with ./run command
 
 ## Usage
 
-'''bash
+Running the script is as simple as executing the following command in your terminal:
+
+```bash
 ./run
-'''
+```
 
 Place your text files in a directory named "text" in the same location as the script. The script will read all the text files, split the text into sentences, and remove any sentences that are less than 5 characters long.
 
